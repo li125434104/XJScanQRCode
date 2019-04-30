@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XJScanQRCode_Example' do
+  pod 'XJScanQRCode', :path => '../'
+
+  target 'XJScanQRCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
