@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27A96F8F444E2B438FA0D173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		27A96F8F444E2B438FA0D173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D3707CE7E1E16AE3FF52E80 /* Pods-XJScanQRCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJScanQRCode_Example.debug.xcconfig"; path = "Target Support Files/Pods-XJScanQRCode_Example/Pods-XJScanQRCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5932B506FEEE8794F04EEEBD /* Pods-XJScanQRCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJScanQRCode_Example.release.xcconfig"; path = "Target Support Files/Pods-XJScanQRCode_Example/Pods-XJScanQRCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XJScanQRCode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJScanQRCode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		9C56BFBFBC7766E5D286C38B /* Pods_XJScanQRCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJScanQRCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DB6DFBE8744F389617892A /* Pods_XJScanQRCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJScanQRCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0C1C93A5390E38380694F4 /* Pods-XJScanQRCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJScanQRCode_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XJScanQRCode_Tests/Pods-XJScanQRCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAF8E1C5A42C18F5A2C68061 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EBE16177D9344975430B1207 /* XJScanQRCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XJScanQRCode.podspec; path = ../XJScanQRCode.podspec; sourceTree = "<group>"; };
+		DAF8E1C5A42C18F5A2C68061 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EBE16177D9344975430B1207 /* XJScanQRCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJScanQRCode.podspec; path = ../XJScanQRCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				DA0C1C93A5390E38380694F4 /* Pods-XJScanQRCode_Tests.debug.xcconfig */,
 				6E8F7A161A1463005C1957EB /* Pods-XJScanQRCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

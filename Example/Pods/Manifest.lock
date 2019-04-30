@@ -1,0 +1,16 @@
+PODS:
+  - XJScanQRCode (0.1.0)
+
+DEPENDENCIES:
+  - XJScanQRCode (from `../`)
+
+EXTERNAL SOURCES:
+  XJScanQRCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XJScanQRCode: cea4f47a741ccdff01bc51c27afd4e9d1f356dc7
+
+PODFILE CHECKSUM: b6cb6e1898f464ea1cce235fc5f9574664bd7a11
+
+COCOAPODS: 1.6.1
